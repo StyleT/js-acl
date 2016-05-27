@@ -1,12 +1,12 @@
 {
   "name": "js-acl",
-  "version": "0.1.2",
+  "version": "0.1.0",
+  "description": "Provides a lightweight and flexible ACL implementation for privileges management in JS/NodeJS",
   "homepage": "https://github.com/StyleT/js-acl",
+  "main": "./dist/acl.js",
   "authors": [
     "Vladlen Fedosov <vlad.fedosov@gmail.com>"
   ],
-  "description": "Provides a lightweight and flexible ACL implementation for privileges management in JS/NodeJS",
-  "main": "./dist/acl.js",
   "keywords": [
     "acl",
     "javascript",
