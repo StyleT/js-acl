@@ -7,6 +7,7 @@
     "compile": "browserify -s Acl -r ./src/index.js -o ./dist/acl.js",
     "bower": "bower",
     "test": "mocha",
+    "test-browser": "karma start",
     "coverage": "istanbul cover _mocha -- -u exports -R nyan"
   },
   "repository": {
@@ -29,6 +30,13 @@
     "browserify": "^13.0.1",
     "chai": "^3.5.0",
     "istanbul": "^0.4.3",
-    "mocha": "^2.5.3"
+    "karma": "^0.13.22",
+    "karma-browserify": "^5.0.5",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-mocha": "^1.0.1",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-spec-reporter": "0.0.26",
+    "mocha": "^2.5.3",
+    "phantomjs": "^1.9.18"
   }
 }
