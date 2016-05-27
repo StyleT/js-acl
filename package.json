@@ -9,7 +9,9 @@
     "bower": "bower",
     "test": "mocha",
     "test-browser": "karma start",
-    "coverage": "istanbul cover _mocha -- -u exports -R nyan"
+    "coverage": "istanbul cover _mocha -- -u exports -R nyan",
+    "preversion": "npm run test && npm run test-browser",
+    "version": "npm run compile && git add -A dist"
   },
   "repository": {
     "type": "git",
