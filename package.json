@@ -1,37 +1,31 @@
 {
-  "name": "angularjs-acl",
-  "version": "0.1.2",
-  "description": "Provides a lightweight and flexible ACL implementation for privileges management in AngularJS",
+  "name": "js-acl",
+  "version": "0.1.0",
+  "description": "Provides a lightweight and flexible ACL implementation for privileges management in JS/NodeJS",
   "main": "./dist/acl.js",
   "scripts": {
     "gulp": "gulp",
     "bower": "bower",
-    "test": "_mocha -R nyan || true",
+    "test": "mocha",
     "coverage": "istanbul cover _mocha -- -u exports -R nyan"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/StyleT/angularjs-acl.git"
+    "url": "git+https://github.com/StyleT/js-acl.git"
   },
   "keywords": [
     "acl",
-    "angular"
+    "javascript",
+    "js"
   ],
   "author": "Vlad Fedosov <vlad.fedosov@gmail.com>",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/StyleT/angularjs-acl/issues"
+    "url": "https://github.com/StyleT/js-acl/issues"
   },
-  "homepage": "https://github.com/StyleT/angularjs-acl#readme",
+  "homepage": "https://github.com/StyleT/js-acl#readme",
   "devDependencies": {
     "bower": "~1.4.1",
-    "gulp": "*",
-    "gulp-angular-filesort": "^1.1.1",
-    "gulp-cache": "^0.2.10",
-    "gulp-concat": "~2.6.0",
-    "gulp-jshint": "~1.11.2",
-    "gulp-ng-annotate": "^1.0.0",
-    "gulp-ngdocs": "^0.2.13",
     "istanbul": "^0.4.3",
     "mocha": "^2.5.3",
     "chai": "^3.5.0"
