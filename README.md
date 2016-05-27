@@ -1,12 +1,12 @@
-# Angular ACL
+# JS ACL
 
-[![Build Status](https://travis-ci.org/StyleT/angularjs-acl.svg?branch=master)](https://travis-ci.org/StyleT/angularjs-acl)
+[![Build Status](https://travis-ci.org/StyleT/js-acl.svg?branch=master)](https://travis-ci.org/StyleT/angularjs-acl)
 [![License](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg)](https://github.com/StyleT/angularjs-acl/blob/master/LICENSE)
 
 ---
 
 ## About
-Angular ACL _(Access Control List)_ is a service that allows you to protect/show content based on the current user's assigned role(s),
+JS ACL _(Access Control List)_ is a service that allows you to protect/show content based on the current user's assigned role(s),
 and those role(s) permissions (abilities).
 
 For the purposes of this documentation:
@@ -20,15 +20,15 @@ Through the specification and use of an ACL, an application may control how role
 
 ## Quick Examples
 First you need to install this library :) It's available via bower or npm:
-- `npm install --save angularjs-acl`
-- `bower install --save angularjs-acl`
+- `npm install --save js-acl`
+- `bower install --save js-acl`
 and add a `<script>` to your `index.html`:
 ```html
 <!-- For bower -->
-<script src="/bower_components/angularjs-acl/dist/acl.js"></script>
+<script src="/bower_components/js-acl/dist/acl.js"></script>
 
 <!-- For npm -->
-<script src="/node_modules/angularjs-acl/dist/acl.js"></script>
+<script src="/node_modules/js-acl/dist/acl.js"></script>
 ```
 
 #### Set Data
@@ -141,7 +141,7 @@ app.controller('DemoCtrl', ['$scope', 'AclService', function ($scope, AclService
 <a ng-href="posts/{{ post.id }}/edit" ng-show="can(post, 'edit')">Edit</a>
 ```
 
-## How secure is this?
+## How secure is this if I'm using it in browser?
 
 A great analogy to ACL's in JavaScript would be form validation in JavaScript.  Just like form validation, ACL's in the
 browser can be tampered with. However, just like form validation, ACL's are really useful and provide a better experience
