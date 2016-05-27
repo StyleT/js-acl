@@ -1,6 +1,10 @@
 language: node_js
 node_js:
   - '0.10'
+  - "0.12"
+  - "v4"
+  - "v5"
+  - "v6"
 notifications:
   email: false
 install:
