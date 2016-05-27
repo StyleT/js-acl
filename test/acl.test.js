@@ -1,6 +1,6 @@
 'use strict';
 
-var Acl     = require(__dirname + '/../src/acl');
+var Acl     = require(__dirname + '/../dist/acl');
 var expect  = require('chai').expect;
 
 describe('Acl', function () {

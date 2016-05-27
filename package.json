@@ -4,7 +4,7 @@
   "description": "Provides a lightweight and flexible ACL implementation for privileges management in JS/NodeJS",
   "main": "./dist/acl.js",
   "scripts": {
-    "gulp": "gulp",
+    "compile": "browserify -s Acl -r ./src/index.js -o ./dist/acl.js",
     "bower": "bower",
     "test": "mocha",
     "coverage": "istanbul cover _mocha -- -u exports -R nyan"
@@ -26,8 +26,9 @@
   "homepage": "https://github.com/StyleT/js-acl#readme",
   "devDependencies": {
     "bower": "~1.4.1",
+    "browserify": "^13.0.1",
+    "chai": "^3.5.0",
     "istanbul": "^0.4.3",
-    "mocha": "^2.5.3",
-    "chai": "^3.5.0"
+    "mocha": "^2.5.3"
   }
 }
