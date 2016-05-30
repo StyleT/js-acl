@@ -1,7 +1,7 @@
 # JS ACL
 
-[![Build Status](https://travis-ci.org/StyleT/js-acl.svg?branch=master)](https://travis-ci.org/StyleT/angularjs-acl)
-[![License](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg)](https://github.com/StyleT/angularjs-acl/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/StyleT/js-acl.svg?branch=master)](https://travis-ci.org/StyleT/js-acl)
+[![License](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg)](https://github.com/StyleT/js-acl/blob/master/LICENSE)
 
 ---
 
