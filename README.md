@@ -36,7 +36,10 @@ const Acl = require('js-acl');
 
 #### Set Data
 ```js
+//In case of Node.js
 const AclService = require('js-acl');
+//In case of Browser
+var AclService = window.JsAcl;
 
 //All these actions you also can do in the middle of app execution
 AclService.addRole('guest');

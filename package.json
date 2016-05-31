@@ -5,7 +5,7 @@
   "homepage": "https://github.com/StyleT/js-acl",
   "main": "./dist/acl.js",
   "scripts": {
-    "compile": "browserify -s Acl -r ./src/index.js -o ./dist/acl.js",
+    "compile": "browserify -s JsAcl -r ./src/index.js | derequire > ./dist/acl.js",
     "bower": "bower",
     "test": "mocha",
     "test-browser": "karma start",
@@ -31,6 +31,7 @@
     "bower": "~1.4.1",
     "browserify": "^13.0.1",
     "chai": "^3.5.0",
+    "derequire": "^2.0.3",
     "istanbul": "^0.4.3",
     "karma": "^0.13.22",
     "karma-browserify": "^5.0.5",
