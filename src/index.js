@@ -320,7 +320,7 @@ function Acl() {
      */
     self.getResource = function (resource) {
         if (!self.hasResource(resource)) {
-            throw new Error("Resource '$resourceId' not found");
+            throw new Error("Resource '" + resource + "' not found");
         }
 
         if (resource instanceof Object && typeof resource.getResourceId === 'function') {
@@ -404,7 +404,7 @@ function Acl() {
      */
     self.removeResource = function (resource) {
         if (!self.hasResource(resource)) {
-            throw new Error("Resource '$resourceId' not found");
+            throw new Error("Resource '" + resource + "' not found");
         }
 
         if (resource instanceof Object && typeof resource.getResourceId === 'function') {
