@@ -6,7 +6,6 @@
   "main": "./dist/acl.js",
   "scripts": {
     "compile": "browserify -s JsAcl -r ./src/index.js | derequire > ./dist/acl.js",
-    "bower": "bower",
     "test": "mocha",
     "test-browser": "karma start",
     "coverage": "istanbul cover _mocha -- -u exports -R nyan",
@@ -28,7 +27,6 @@
     "url": "https://github.com/StyleT/js-acl/issues"
   },
   "devDependencies": {
-    "bower": "~1.4.1",
     "browserify": "^13.0.1",
     "chai": "^3.5.0",
     "derequire": "^2.0.3",

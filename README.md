@@ -19,15 +19,12 @@ then the parking attendant is the requesting role, and the car is the resource, 
 Through the specification and use of an ACL, an application may control how roles are granted access to resources.
 
 ## Quick Examples
-First you need to install this library :) It's available via bower or npm:
+
+First you need to install this library :)
+
 - `npm install --save js-acl`
-- `bower install --save js-acl` and add a `<script>` to your `index.html`:
 
 ```html
-<!-- For bower -->
-<script src="/bower_components/js-acl/dist/acl.js"></script>
-
-<!-- For npm -->
 <script src="/node_modules/js-acl/dist/acl.js"></script>
 ```
 ```js
