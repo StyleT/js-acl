@@ -290,12 +290,12 @@ function Acl() {
         var resourceId = resource;
 
         if (self.hasResource(resourceId)) {
-            throw new Error("Resource id 'resourceId' already exists in the ACL");
+            throw new Error("Resource '" + resourceId + "' already exists in the ACL");
         }
 
         if (parent !== null) {
             if (!self.hasResource(parent)) {
-                throw new Error("Parent resource id not exists in the ACL");
+                throw new Error("Parent resource '" + parent + "' not exists in the ACL");
             }
 
             _resources[parent].children.push(resourceId);
