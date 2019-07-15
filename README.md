@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/StyleT/js-acl.svg?branch=master)](https://travis-ci.org/StyleT/js-acl)
 [![License](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg)](https://github.com/StyleT/js-acl/blob/master/LICENSE)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FStyleT%2Fjs-acl.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FStyleT%2Fjs-acl?ref=badge_shield)
 
 ---
 
@@ -84,3 +85,7 @@ and submits the form. The form data is sent the the server and the user is greet
 message, because the server also checked to make sure that the user had the correct permissions.
 
 Any sensitive data or actions should integrate a server check.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FStyleT%2Fjs-acl.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FStyleT%2Fjs-acl?ref=badge_large)
